@@ -1,0 +1,21 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle / Kotlin build output and caches
+.gradle/
+.kotlin/
+build/
+
+# Local machine settings and SECRETS (Strava client secret, Nightscout URL)
+local.properties
+
+# Signing keys and built apps (built APKs contain the Strava client secret)
+*.jks
+*.keystore
+*.apk
+*.aab
